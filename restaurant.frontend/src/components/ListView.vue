@@ -23,8 +23,7 @@ const filter = ref("");
     <h1 class="category">{{ category }}</h1>
     <div v-for="item in items[category]">
       <div v-if="filter === '' || item.attributes.includes(filter)" class="items">
-        <h3>{{ item.name }}</h3>
-        <a>{{ item.price }}</a>
+        <h3>{{ item.name }}<span>{{ item.price }}</span></h3>
         <p>{{ item.description }}</p>
       </div>
     </div>
@@ -48,6 +47,10 @@ const filter = ref("");
 }
 .items {
   color: var(--text-white);
+  margin: 10px 0px 10px 0px;
+}
+.items h3 span {
+  padding-left: 10%;
 }
 
 @media only screen and (max-width: 600px) {
