@@ -30,9 +30,7 @@ const filter = ref("");
   </div>
 
   <datalist id="attributes">
-    <option value="vegan"></option>
     <option value="vegetarisch"></option>
-    <option value="spicy"></option>
   </datalist>
 </template>
 <style scoped>
