@@ -20,9 +20,9 @@ const filter = ref("");
   <input type="search" list="attributes" v-model="filter" />
 
   <div v-for="category in Object.keys(items)">
-    <h1>{{ category }}</h1>
+    <h1 class="category">{{ category }}</h1>
     <div v-for="item in items[category]">
-      <div v-if="filter === '' || item.attributes.includes(filter)">
+      <div v-if="filter === '' || item.attributes.includes(filter)" class="items">
         <h3>{{ item.name }}</h3>
         <a>{{ item.price }}</a>
         <p>{{ item.description }}</p>
@@ -39,15 +39,21 @@ const filter = ref("");
 <style scoped>
 * {
   margin: 0;
-  color: lightgoldenrodyellow;
 }
-div:first-child {
-  margin: 0;
+.category {
+  color: var(--text-white);
+  margin: 50px 0px 20px 0px;
+  font-style: italic;
+  font-size: 10vw;
 }
-div {
-  margin: 2%;
+.items {
+  color: var(--text-white);
 }
-input {
-  color: black;
+
+@media only screen and (max-width: 600px) {
+  .category {
+    font-size: 17vw;
+  }
 }
+
 </style>
