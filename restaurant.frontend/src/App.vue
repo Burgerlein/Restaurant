@@ -8,6 +8,7 @@ import { RouterView } from "vue-router";
   </div>
 </template>
 <style>
+@import "@/assets/main.css";
 html,
 body {
   margin: 0;
