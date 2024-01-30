@@ -24,7 +24,7 @@ body {
 }
 
 .app {
-  background-color: #2c3e50;
+  background-image: linear-gradient(135deg, var(--governor-bay-300) 0%, var(--governor-bay-700) 100%);
   width: 100vw;
   min-height: 100vh;
   height: 100%;
