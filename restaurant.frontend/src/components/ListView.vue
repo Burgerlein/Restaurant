@@ -38,6 +38,7 @@ const filter = ref("");
 <style scoped>
 * {
   margin: 0;
+  animation: transitionIn 0.75s;
 }
 .category {
   color: var(--text-white);
