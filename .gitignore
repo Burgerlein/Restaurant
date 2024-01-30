@@ -1,0 +1,12 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+restaurant.frontend/node_modules/.bin/
+
+restaurant.frontend/node_modules/
+
+restaurant.frontend/.DS_Store
+
+.DS_Store

@@ -1,0 +1,94 @@
+{
+    "Vorspeise": [
+      {
+        "name": "Caprese Salat",
+        "price": 8.99,
+        "description": "Tomaten, Mozzarella, Basilikum, Olivenöl",
+        "available": true,
+        "attributes": ["vegetarisch"]
+      },
+      {
+        "name": "Knoblauchbrot",
+        "price": 5.49,
+        "description": "Geröstetes Brot mit Knoblauchbutter",
+        "available": false,
+        "attributes": ["vegetarisch"]
+      },
+      {
+        "name": "Bruschetta",
+        "price": 7.29,
+        "description": "Geröstetes Brot mit Tomaten, Knoblauch und Basilikum",
+        "available": true,
+        "attributes": ["vegetarisch"]
+      }
+    ],
+    "Burger": [
+      {
+        "name": "Classic Burger",
+        "price": 12.99,
+        "description": "Rindfleischpatty, Cheddar, Salat, Tomaten, Zwiebeln, Gewürzsoße",
+        "available": true,
+        "attributes": ["spicy"]
+      },
+      {
+        "name": "Vegetarischer Burger",
+        "price": 10.99,
+        "description": "Gemüse-Patty, Avocado, Tomaten, Salat, Käse",
+        "available": true,
+        "attributes": ["vegetarisch"]
+      },
+      {
+        "name": "BBQ Bacon Burger",
+        "price": 14.49,
+        "description": "Rindfleischpatty, Bacon, BBQ-Soße, Käse, Zwiebelringe",
+        "available": false,
+        "attributes": []
+      }
+    ],
+    "Salate": [
+      {
+        "name": "Caesar Salat",
+        "price": 9.99,
+        "description": "Romanasalat, Hühnerbrust, Croutons, Parmesan, Caesar-Dressing",
+        "available": true,
+        "attributes": []
+      },
+      {
+        "name": "Griechischer Salat",
+        "price": 8.79,
+        "description": "Gurken, Tomaten, Oliven, Feta, Zwiebeln, Oregano",
+        "available": false,
+        "attributes": ["vegetarisch"]
+      },
+      {
+        "name": "Nicoise Salat",
+        "price": 11.29,
+        "description": "Thunfisch, Eier, Kartoffeln, Bohnen, Oliven, Tomaten",
+        "available": true,
+        "attributes": []
+      }
+    ],
+    "Nachtisch": [
+      {
+        "name": "Schokoladenkuchen",
+        "price": 6.99,
+        "description": "Saftiger Schokoladenkuchen mit Schokoladenglasur",
+        "available": true,
+        "attributes": []
+      },
+      {
+        "name": "Vanilleeis mit Beeren",
+        "price": 5.49,
+        "description": "Vanilleeis mit frischen Beeren und Minzblättern",
+        "available": true,
+        "attributes": ["vegetarisch"]
+      },
+      {
+        "name": "Tiramisu",
+        "price": 7.79,
+        "description": "Schichten von Biskuit, Mascarponecreme, Kaffee und Kakaopulver",
+        "available": false,
+        "attributes": []
+      }
+    ]
+  }  
