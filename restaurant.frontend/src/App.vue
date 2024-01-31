@@ -18,11 +18,11 @@ function openNav() {
   </div>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a>
-    <router-link to="/">Home</router-link>
-    <router-link to="/menu">Menu</router-link>
-    <router-link to="#">About</router-link>
-    <router-link to="#">Contact</router-link>
-    <router-link to="#">Login</router-link>
+    <router-link to="/" @click="closeNav()">Home</router-link>
+    <router-link to="/menu" @click="closeNav()">Menu</router-link>
+    <router-link to="#" @click="closeNav()">About</router-link>
+    <router-link to="#" @click="closeNav()">Contact</router-link>
+    <router-link to="#" @click="closeNav()">Login</router-link>
   </div>
 </template>
 <style>
